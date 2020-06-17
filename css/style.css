@@ -157,14 +157,32 @@ footer {
     padding-bottom: 30px;
 }
 
+@media (max-width: 1024px) and (min-width: 900px){
+    .intro-content{
+        height: 70vh;
+    }
+
+    .intro-text p {
+        line-height: 30px;
+    }
+    .services{
+        clip-path: polygon(0 0, 15% 0, 50% 15%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+        height: 90vh;
+    }
+}
+
 @media screen and (max-width: 768px){
+    .header-content{
+        padding-top: 30vh;
+    }
+
     .header-content h2{
-        font-size: 20px;
+       font-size: 20px;
     }
 
     .intro-content{
         display: block;
-        height: 90vh;
+        height: 120vh;
     }
 
     .intro-content div{
@@ -172,7 +190,7 @@ footer {
     }
 
     .services{
-        height: 100vh;
+        height: 120vh;
         clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
     }
 
